@@ -1,0 +1,17 @@
+{
+    "77f2b33a-1167-11e7-93ae-92361f002671":
+	{
+		"title": "Small Laser",
+		"description": "Ø0.5\nA small laser that goes through blocks until the end of the world!"
+	},
+    "3f7604ac-0ce0-11e7-93ae-92361f002671":
+	{
+		"title": "Medium Laser",
+		"description": "Ø1\nA medium laser that goes through blocks until the end of the world!"
+	},
+    "77f2b9e8-1167-11e7-93ae-92361f002671":
+	{
+		"title": "Large Laser",
+		"description": "Ø3\nA large laser that goes through blocks until the end of the world!"
+	}
+}

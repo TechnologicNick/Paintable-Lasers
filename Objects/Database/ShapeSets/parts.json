@@ -1,0 +1,138 @@
+{
+   "partList" : [
+        { //small
+			"uuid": "77f2b33a-1167-11e7-93ae-92361f002671",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            /*{
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/laser_dif.png",
+                                    "$MOD_DATA/Objects/Textures/laser_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "Glass"
+                            },*/{
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/laser_dif.png",
+                                    "$MOD_DATA/Objects/Textures/laser_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/laser_small_off.obj",
+                        "pose0": "$MOD_DATA/Objects/Mesh/laser_small_on.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropZmY",
+			"color": "ff0000",
+			"hull": {
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.25,
+				"pointList": [
+					{ "x": 0.0, "y": 0.0, "z": 1.0 },
+					{ "x": 0.0, "y": 0.0, "z":-1.0 }
+				]
+			},
+			"density": 250.0,
+            "sticky": "+X-X+Y-Y+Z-Z",
+			"physicsMaterial": "Plastic",
+            "spotlight": {
+				"coneAngle": 255.0,
+				"coneFade": 0.0,
+				"minRange": 0.0,
+				"maxRange": 10000.0,
+				"defaultLuminance": 100,
+				"color" : "ff0000",
+				"direction": { "x": 0, "y": 0, "z": 1 }
+			}
+		},{ //medium
+			"uuid": "3f7604ac-0ce0-11e7-93ae-92361f002671",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            /*{
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/laser_dif.png",
+                                    "$MOD_DATA/Objects/Textures/laser_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "Glass"
+                            },*/{
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/laser_dif.png",
+                                    "$MOD_DATA/Objects/Textures/laser_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/laser_medium_off.obj",
+                        "pose0": "$MOD_DATA/Objects/Mesh/laser_medium_on.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropZmY",
+			"color": "ff0000",
+			"cylinder": { "diameter": 1, "depth": 1, "margin": 0.5, "axis": "Z" },
+			"density": 250.0,
+            "sticky": "+X-X+Y-Y+Z-Z",
+			"physicsMaterial": "Plastic",
+            "spotlight": {
+				"coneAngle": 255.0,
+				"coneFade": 0.0,
+				"minRange": 0.0,
+				"maxRange": 10000.0,
+				"defaultLuminance": 100,
+				"color" : "ff0000",
+				"direction": { "x": 0, "y": 0, "z": 1 }
+			}
+		},{ //large
+			"uuid": "77f2b9e8-1167-11e7-93ae-92361f002671",
+			"renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            /*{
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/laser_dif.png",
+                                    "$MOD_DATA/Objects/Textures/laser_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "Glass"
+                            },*/{
+                                "textureList": [
+                                    "$MOD_DATA/Objects/Textures/laser_dif.png",
+                                    "$MOD_DATA/Objects/Textures/laser_asg.png",
+                                    "$GAME_DATA/Textures/nonor_nor.png"
+                                ],
+                                "material": "PoseAnimDifAsgNor"
+                            }
+                        ],
+                        "mesh": "$MOD_DATA/Objects/Mesh/laser_large_off.obj",
+                        "pose0": "$MOD_DATA/Objects/Mesh/laser_large_on.obj"
+                    }
+                ]
+            },
+			"rotationSet": "PropZmY",
+			"color": "ff0000",
+			"cylinder": { "diameter": 3, "depth": 1, "margin": 0.04, "axis": "Z" },
+			"density": 250.0,
+            "sticky": "+X-X+Y-Y+Z-Z",
+			"physicsMaterial": "Plastic",
+            "spotlight": {
+				"coneAngle": 255.0,
+				"coneFade": 0.0,
+				"minRange": 0.0,
+				"maxRange": 10000.0,
+				"defaultLuminance": 100,
+				"color" : "ff0000",
+				"direction": { "x": 0, "y": 0, "z": 1 }
+			}
+		}
+    ]
+}
